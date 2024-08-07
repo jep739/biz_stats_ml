@@ -126,7 +126,7 @@ The kernel_regularizer=tf.keras.regularizers.l2(0.01) is applied to the dense la
 <img width="446" alt="Neural Networks" src="https://github.com/user-attachments/assets/a34c86cd-704b-4afc-bb80-b9cd8844c085"><br><br>
 
 
-##DASH APP:
+## DASH APP:
 
 I also created a dashboard using Dash to visualise the final product. Here is a quick snapshot (Theres more), but essentially it is the visualisations seen in the notebook, but in dashboard form where variables can be selected and used to update all plots at once:
 
