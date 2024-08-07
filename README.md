@@ -64,7 +64,7 @@ Several visualisations are used to analyse the data on an industry level. The pl
 
 ## Machine Learning Evaluation
 
-This program aims to solve the problem of low qualityfinancial data surveys. We evaluate the quality based on comparing to skattetateen data and how many of the fields are filled out. Poor quality responses are imputed using a chosen machine learning algorithm based on trained on the full data set (net of poor quality surveys). 
+This program aims to solve the problem of low quality financial data surveys responses. We evaluate the quality based on comparing to skattetateen data and how many of the fields are filled out. Poor quality responses are imputed using a chosen machine learning algorithm based on trained on the full data set (net of poor quality surveys). 
 
 **Important tools used:**
 
