@@ -30,7 +30,7 @@ Several visualisations are used to analyse the data on an industry level. The pl
 <img width="422" alt="static map" src="https://github.com/user-attachments/assets/6eff24d7-ef9c-43ab-89d1-bf38d0bf87cc">
 <img width="485" alt="image" src="https://github.com/user-attachments/assets/181b1f61-79f5-4ae8-87a8-59c7a31b97c5"><br><br>
 
-**Histgram with cumulative percentage:**
+**Histogram with cumulative percentage:**
 
 
 <img width="391" alt="histogram" src="https://github.com/user-attachments/assets/35454eef-b4c5-4ae3-9168-30265510f57d"><br><br>
