@@ -151,7 +151,8 @@ Models can always be improved. WIth more resources, particularly time, it may be
 - training models for specific industries. Especially if those industries are particularly unique. For example for petrol & diesel sales we can try to use various road network features (distance to nearest gas stations, how often a road is used etc):
 - There is an opportunity to identify which company an industry might belong to, and as a result, identify companies that are currently assigned to the wrong industry (the key for which everything is aggregated). Current classification models perform poorly as seen below. But these only use financial data, I expect if we use features such as job titles (number of employees under a given job title) , then the models will perform better.
 
-** Road Network Data**
+**Road Network Data:**
+
 <img width="445" alt="Roads" src="https://github.com/user-attachments/assets/d30ca253-3720-4a19-bc79-4d125bb1f26b"><br><br>
 
 
