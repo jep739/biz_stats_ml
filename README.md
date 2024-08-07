@@ -137,7 +137,7 @@ I also created a dashboard using Dash to visualise the final product. Here is a 
 <img width="1695" alt="dash 1" src="https://github.com/user-attachments/assets/e70ddcc1-4724-498c-953e-41406d64da42"><br><br>
 
 
-##Testing the results:
+## Testing the results:
 
 I perform several logical tests and backtest the output of the program against actual publications:
 
