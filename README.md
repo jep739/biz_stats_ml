@@ -3,7 +3,7 @@ Program that produces retail/wholesale trade statistics using machine learning +
 
 The main problem being solved, is inaccuarte/low quality responses being delivered by respondents to a survey - often with very material consequences to the final production. This normally takes a team of statisticians an entire year to correct (sometimes results in having to recontact the responders) - I am to solve this task using machine learning and other statistical measures. 
 
-Results: A full production run (normally completed by a team of 5-7 people a year to complete) completed in 600.38 seconds. Results pass several logical tests and when backtested against former productions compares very favorably. The r^2 when comparing what this program produces against what was actually published was approx 98% with a mean absolute error of approx 5.000 nok - which is low given the characteristics of our data. 
+Results: A full production run (normally completed by a team of 5-7 people over an entire year) completed in 600.38 seconds. Results pass several logical tests and when backtested against former productions compares very favorably. The r^2 when comparing what this program produces against what was actually published was approx 98% with a mean absolute error of approx 5.000 nok - which is low given the characteristics of our data. 
 
 The code uses confidential data and will not run simply by cloning this repo. But I will demonstrate what the code is doing here in this ReadMe file:
 
