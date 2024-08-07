@@ -68,7 +68,7 @@ This program aims to solve the problem of low quality financial data surveys res
 
 **Important tools used:**
 
-**Feature engineering:** I gathered extra data by quering various apis and cooperating with several other sections within SSB. I also used tools such as KNN imputation to fill NaN values and created new trend variables using Linear Regression. 
+**Feature engineering:** I gathered extra data by quering various apis and cooperating with several other departments within SSB. I also used tools such as KNN imputation to fill NaN values and created new trend variables using Linear Regression. 
 
 **GridSearch:** This was used for hyperparameter tuning. This can be switched on and off depending on the needs of the user. 
 
