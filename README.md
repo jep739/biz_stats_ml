@@ -82,6 +82,8 @@ This program aims to solve the problem of low quality financial data surveys res
 
 **Early Stopping:** I use early stopping techniques in order to prevent overfitting and improve training time. 
 
+**Learning Curves:** I have used learning curves to determine whether models are overfitting. The results indicate that this has not occurred. 
+
 #### Neural Network Specific Parameters:
 
 **All parameters are subject to change based on results and at times the results of a GridSearch(hyperparameter tuning)**
