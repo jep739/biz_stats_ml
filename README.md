@@ -11,7 +11,7 @@ The code uses confidential data and will not run simply by cloning this repo. Bu
 
 ## Visualisations:
 
-Several visualisations are used to analyse the data on an industry level. The plots are interactive, the user can select years, chart-types, focus variables etc. Some visualisations are animated and if the user presses play, they will see changes overtime. Here are what some of the outputs look like (which would naturally adjust if something different was selected in the dropdown menus. 
+Several visualisations are used to analyse the data on an industry level. The plots are interactive, the user can select years, chart-types, focus variables etc. All of the regular plotly interactive tools are available as well. Some visualisations are animated and if the user presses play, they will see changes overtime. Here are what some of the outputs look like (which would naturally adjust if something different was selected in the dropdown menus. 
 
 **Simple plots:** 
 
@@ -156,6 +156,7 @@ I perform several logical tests and backtest the output of the program against a
 Models can always be improved. With more resources, particularly time, it may be worth investigating several other opportunities, such as :
 
 - training models for specific industries. Especially if those industries are particularly unique. For example for petrol & diesel sales we can try to use various road network features (distance to nearest gas stations, how often a road is used etc):
+- Card transaction data may soon be available, which leads to the possibility of better feature engineering - particularly for retail industries. 
 - There is an opportunity to identify which company an industry might belong to, and as a result, identify companies that are currently assigned to the wrong industry (the key for which everything is aggregated). Current classification models perform poorly as seen below. But these only use financial data, I expect if we use features such as job titles (number of employees under a given job title) , then the models will perform better.
 
 **Road Network Data:**
