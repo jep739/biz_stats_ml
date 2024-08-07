@@ -11,50 +11,55 @@ The code uses confidential data and will not run simply by cloning this repo. Bu
 
 Several visualisations are used to analyse the data on an industry level. The plots are interactive, the user can select years, chart-types, focus variables etc. Some visualisations are animated and if the user presses play, they will see changes overtime. Here are what some of the outputs look like (which would naturally adjust if something different was selected in the dropdown menus. 
 
-####**Simple plots:** 
+**Simple plots:** 
 
-<img width="990" alt="Line Plots" src="https://github.com/user-attachments/assets/18b5c77b-ee64-4d4a-b79d-7230be50b016">
+<img width="990" alt="Line Plots" src="https://github.com/user-attachments/assets/18b5c77b-ee64-4d4a-b79d-7230be50b016"><br><br>
 
-####**Bar Charts and Heat Maps:**
 
-<img width="457" alt="Bar Chart and Heat Map" src="https://github.com/user-attachments/assets/3a561afc-0d51-4666-b6a2-ea2860cb0200">
 
-####**Maps (one that is animated):**
+
+**Bar Charts and Heat Maps:**
+
+<img width="457" alt="Bar Chart and Heat Map" src="https://github.com/user-attachments/assets/3a561afc-0d51-4666-b6a2-ea2860cb0200"><br><br>
+
+
+
+**Maps (one that is animated):**
 
 
 <img width="422" alt="static map" src="https://github.com/user-attachments/assets/6eff24d7-ef9c-43ab-89d1-bf38d0bf87cc">
-<img width="485" alt="image" src="https://github.com/user-attachments/assets/181b1f61-79f5-4ae8-87a8-59c7a31b97c5">
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/181b1f61-79f5-4ae8-87a8-59c7a31b97c5"><br><br>
 
-####**Histgram with cumulative percentage:**
-
-
-<img width="391" alt="histogram" src="https://github.com/user-attachments/assets/35454eef-b4c5-4ae3-9168-30265510f57d">
+**Histgram with cumulative percentage:**
 
 
-####**Linked Plots:**
-
-<img width="394" alt="Linked Plots" src="https://github.com/user-attachments/assets/0f85e171-6b63-493d-9bf9-5fc61dd7c7b4">
-
-####**Bubble Plots:**
-
-<img width="445" alt="Bubble Plot" src="https://github.com/user-attachments/assets/4e29d2d4-1055-48ce-9d4b-9ff72cdc1e3b">
-
-####**Parallel Coordinates Plot:**
-
-<img width="845" alt="Parallel Cooridinates" src="https://github.com/user-attachments/assets/2158cb5e-7edf-4262-87a4-b1f5015adff0">
-
-####**Geographical Plot:**
-
-<img width="851" alt="geographic" src="https://github.com/user-attachments/assets/b367bfe7-9cf0-4874-90ff-3a754b7939eb">
-
-####**Animated Bar Chart:**
+<img width="391" alt="histogram" src="https://github.com/user-attachments/assets/35454eef-b4c5-4ae3-9168-30265510f57d"><br><br>
 
 
-<img width="662" alt="animated bar chat" src="https://github.com/user-attachments/assets/962a2958-4929-4eb2-aa9e-1c79bd7d9d1f">
+**Linked Plots:**
 
-####**3D Plot:**
+<img width="394" alt="Linked Plots" src="https://github.com/user-attachments/assets/0f85e171-6b63-493d-9bf9-5fc61dd7c7b4"><br><br>
 
-<img width="532" alt="3D" src="https://github.com/user-attachments/assets/b8ae22ca-7f17-421b-bde5-28f379e0edad">
+**Bubble Plots:**
+
+<img width="445" alt="Bubble Plot" src="https://github.com/user-attachments/assets/4e29d2d4-1055-48ce-9d4b-9ff72cdc1e3b"><br><br>
+
+**Parallel Coordinates Plot:**
+
+<img width="845" alt="Parallel Cooridinates" src="https://github.com/user-attachments/assets/2158cb5e-7edf-4262-87a4-b1f5015adff0"><br><br>
+
+**Geographical Plot:**
+
+<img width="851" alt="geographic" src="https://github.com/user-attachments/assets/b367bfe7-9cf0-4874-90ff-3a754b7939eb"><br><br>
+
+**Animated Bar Chart:**
+
+
+<img width="662" alt="animated bar chat" src="https://github.com/user-attachments/assets/962a2958-4929-4eb2-aa9e-1c79bd7d9d1f"><br><br>
+
+**3D Plot:**
+
+<img width="532" alt="3D" src="https://github.com/user-attachments/assets/b8ae22ca-7f17-421b-bde5-28f379e0edad"><br><br>
 
 
 ## Machine Learning Evaluation
@@ -63,18 +68,18 @@ This program aims to solve the problem of low qualityfinancial data surveys. We 
 
 **Important tools used:**
 
-####**Feature engineering:** I gathered extra data by quering various apis and cooperating with several other sections within SSB. I also used tools such as KNN imputation to fill NaN values and created new trend variables using Linear Regression. 
+**Feature engineering:** I gathered extra data by quering various apis and cooperating with several other sections within SSB. I also used tools such as KNN imputation to fill NaN values and created new trend variables using Linear Regression. 
 
-####**GridSearch:** This was used for hyperparameter tuning. This can be switched on and off depending on the needs of the user. 
+**GridSearch:** This was used for hyperparameter tuning. This can be switched on and off depending on the needs of the user. 
 
-####**Other key tools and parameters:**
+**Other key tools and parameters:**
 
 **Scaler (object):** Scalers are used to normalize or standardize numerical features. Common scalers include StandardScaler and RobustScaler. Normalization helps in speeding up the convergence of the training algorithm by ensuring that all features contribute equally to the learning process.
 **epochs_number (int):** The number of epochs determines how many times the learning algorithm will work through the entire training dataset. More epochs can lead to better learning but may also result in overfitting if too high. 
 **batch_size (int):** This defines the number of samples that will be propagated through the network at one time. Smaller batch sizes can lead to more reliable updates but are computationally more expensive. I chose a medium size number based on the shape of the data, and how often certain features appear within the df. Speed was also a consideration. 
 **Early Stopping:** I use early stopping techniques in order to prevent overfitting and improve training time. 
 
-####**Neural Network Specific Parameters:**
+#### Neural Network Specific Parameters:
 
 **All parameters are subject to change based on results and at times the results of a GridSearch(hyperparameter tuning)**
 
@@ -103,7 +108,7 @@ Regularization:
 
 The kernel_regularizer=tf.keras.regularizers.l2(0.01) is applied to the dense layers. L2 regularization helps in preventing overfitting by penalizing large weights, thereby promoting smaller, more generalizable weights.
 
-####**Results:**
+**Results:**
 
 **XGBoost:**
 
@@ -111,35 +116,35 @@ The kernel_regularizer=tf.keras.regularizers.l2(0.01) is applied to the dense la
 
 <img width="388" alt="XG1" src="https://github.com/user-attachments/assets/5dd15eb7-cd0a-41f9-b81d-4fa9ab640a11">
 <img width="395" alt="xg2" src="https://github.com/user-attachments/assets/68290aba-e794-4f60-818c-470d13b78243">
-<img width="368" alt="xg3" src="https://github.com/user-attachments/assets/2e10b292-b999-4b14-b465-8e1bb55bb114">
+<img width="368" alt="xg3" src="https://github.com/user-attachments/assets/2e10b292-b999-4b14-b465-8e1bb55bb114"><br><br>
 
 **K-Nearest Neighbors:**
 
-<img width="401" alt="NN" src="https://github.com/user-attachments/assets/088dc808-8968-44e7-b2c7-f7a0b47733c8">
+<img width="401" alt="NN" src="https://github.com/user-attachments/assets/088dc808-8968-44e7-b2c7-f7a0b47733c8"><br><br>
 
 **Neural Network:**
-<img width="446" alt="Neural Networks" src="https://github.com/user-attachments/assets/a34c86cd-704b-4afc-bb80-b9cd8844c085">
+<img width="446" alt="Neural Networks" src="https://github.com/user-attachments/assets/a34c86cd-704b-4afc-bb80-b9cd8844c085"><br><br>
 
 
-##**DASH APP:**
+##DASH APP:
 
 I also created a dashboard using Dash to visualise the final product. Here is a quick snapshot (Theres more), but essentially it is the visualisations seen in the notebook, but in dashboard form where variables can be selected and used to update all plots at once:
 
 
-<img width="1695" alt="dash 1" src="https://github.com/user-attachments/assets/e70ddcc1-4724-498c-953e-41406d64da42">
+<img width="1695" alt="dash 1" src="https://github.com/user-attachments/assets/e70ddcc1-4724-498c-953e-41406d64da42"><br><br>
 
 
-##**Testing the results:**
+##Testing the results:
 
 I perform several logical tests and backtest the output of the program against actual publications:
 
 <img width="696" alt="Test Results" src="https://github.com/user-attachments/assets/4fe37337-f077-4d51-b59c-ce6d5b6f0648">
 
-<img width="317" alt="Test Results 2" src="https://github.com/user-attachments/assets/a5bcd20d-9d11-44a9-942a-7503e19b5de5">
+<img width="317" alt="Test Results 2" src="https://github.com/user-attachments/assets/a5bcd20d-9d11-44a9-942a-7503e19b5de5"><br><br>
 
 **Based on these results its likely I will use K-NN nearest neighbors for the 2023 production.**
 
-##**Moving Forward:**
+## Moving Forward:
 
 Models can always be improved. WIth more resources, particularly time, it may be worth investigating several other opportunities, such as :
 
@@ -147,7 +152,7 @@ Models can always be improved. WIth more resources, particularly time, it may be
 - There is an opportunity to identify which company an industry might belong to, and as a result, identify companies that are currently assigned to the wrong industry (the key for which everything is aggregated). Current classification models perform poorly as seen below. But these only use financial data, I expect if we use features such as job titles (number of employees under a given job title) , then the models will perform better.
 
 ** Road Network Data**
-<img width="445" alt="Roads" src="https://github.com/user-attachments/assets/d30ca253-3720-4a19-bc79-4d125bb1f26b">
+<img width="445" alt="Roads" src="https://github.com/user-attachments/assets/d30ca253-3720-4a19-bc79-4d125bb1f26b"><br><br>
 
 
 **Classification Performance (So far)**
