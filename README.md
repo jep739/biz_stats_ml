@@ -1,5 +1,5 @@
 # biz_stats_ml
-Program that produces retail/wholesale trade statistics using machine learning + visualisations 
+Program that produces retail/wholesale trade statistics using machine learning + visualisations.
 
 Code has been moved from my organisation to my personal profile. All of the work was done in the repo that my organisation owns - but all the work is my own. I am sharing here to open it up to comment from people working with similar statistics worldwide. Please feel free to share your thoughts.
 
