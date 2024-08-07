@@ -75,8 +75,11 @@ This program aims to solve the problem of low qualityfinancial data surveys. We 
 **Other key tools and parameters:**
 
 **Scaler (object):** Scalers are used to normalize or standardize numerical features. Common scalers include StandardScaler and RobustScaler. Normalization helps in speeding up the convergence of the training algorithm by ensuring that all features contribute equally to the learning process.
+
 **epochs_number (int):** The number of epochs determines how many times the learning algorithm will work through the entire training dataset. More epochs can lead to better learning but may also result in overfitting if too high. 
+
 **batch_size (int):** This defines the number of samples that will be propagated through the network at one time. Smaller batch sizes can lead to more reliable updates but are computationally more expensive. I chose a medium size number based on the shape of the data, and how often certain features appear within the df. Speed was also a consideration. 
+
 **Early Stopping:** I use early stopping techniques in order to prevent overfitting and improve training time. 
 
 #### Neural Network Specific Parameters:
