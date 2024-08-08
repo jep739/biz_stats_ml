@@ -171,9 +171,6 @@ Models can always be improved. With more resources, particularly time, it may be
 
 
 
-## Contributers to the project:
-
-<img width="716" alt="contributions" src="https://github.com/user-attachments/assets/7208d70e-c47e-4c16-8ae1-8e51a43b516a">
 
 
 
