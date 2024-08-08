@@ -119,7 +119,7 @@ The kernel_regularizer=tf.keras.regularizers.l2(0.01) is applied to the dense la
 
 **XGBoost:**
 
-**I used visualisations techniques in order to see the importance of several features. **
+I used visualisations techniques in order to see the importance of several features. 
 
 <img width="388" alt="XG1" src="https://github.com/user-attachments/assets/5dd15eb7-cd0a-41f9-b81d-4fa9ab640a11">
 <img width="395" alt="xg2" src="https://github.com/user-attachments/assets/68290aba-e794-4f60-818c-470d13b78243">
