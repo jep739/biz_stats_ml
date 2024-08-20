@@ -1,15 +1,16 @@
-# biz_stats_ml
-Program that produces retail/wholesale trade statistics using machine learning + visualisations.
+# noku_ml
 
-The visualisations you see here are produced using data that been adjusted so that it doesnt represent the actual dataset. It does not display actual industrial statistics or individual company data and is meant for illustrative purposes only. 
+Norsk versjon:
 
-Code has been moved from my organisation to my personal profile. All of the work was done in the repo that my organisation owns - but all the work is my own. I am sharing here to open it up to comment from people working with similar statistics worldwide. Please feel free to share your thoughts.
+- [Norsk](./README_NO.md)
 
-**The problem:** The main problem being solved, is inaccuarte/low quality responses being delivered by respondents to a survey - often with very material consequences to the final production. This normally takes a team of statisticians an entire year to correct (and sometimes even results with responders needing to be re-contacted.) - I am attempting to solve this task using machine learning and other statistical measures. 
+Program that produces retail/wholesale trade statistics using machine learning + visualisations 
 
-**Results:** A full production run (normally completed by a team of 5-7 people over an entire year) is now completed in 600.38 seconds. Results pass several logical tests and when backtested against former productions compares very favorably. The r^2 when comparing what this program produces against what was actually published was approx 98% with a mean absolute error of approx 5.000 nok - which is low given the characteristics of our data. 
+The main problem being solved, is inaccuarte/low quality responses being delivered by respondents to a survey - often with very material consequences to the final production. This normally takes a team of statisticians an entire year to correct (sometimes results in having to recontact the responders) - I am to solve this task using machine learning and other statistical measures. 
 
-The code uses confidential data and will not run simply by cloning this repo. But I will demonstrate what the code is doing here in this ReadMe file:
+Results: A full production run (normally completed by a team of 5-7 people over an entire year) completed in 600.38 seconds. Results pass several logical tests and when backtested against former productions compares very favorably. The r^2 when comparing what this program produces against what was actually published was approx 98% with a mean absolute error of approx 5.000 nok - which is low given the characteristics of our data. 
+
+Feel free to clone the repo if you have appropriate access. I will also demonstrate what the code is doing here in this ReadMe file:
 
 ## Visualisations:
 
@@ -121,7 +122,7 @@ The kernel_regularizer=tf.keras.regularizers.l2(0.01) is applied to the dense la
 
 **XGBoost:**
 
-I used visualisations techniques in order to see the importance of several features. 
+**I used visualisations techniques in order to see the importance of several features. **
 
 <img width="388" alt="XG1" src="https://github.com/user-attachments/assets/5dd15eb7-cd0a-41f9-b81d-4fa9ab640a11">
 <img width="395" alt="xg2" src="https://github.com/user-attachments/assets/68290aba-e794-4f60-818c-470d13b78243">
@@ -170,8 +171,6 @@ Models can always be improved. With more resources, particularly time, it may be
 
 <img width="287" alt="Classification 1" src="https://github.com/user-attachments/assets/3a03cb33-0d9d-4148-a89d-8e4af063ee27">
 <img width="314" alt="Classification 2" src="https://github.com/user-attachments/assets/e1800742-becd-45b3-b725-01519c6312dc">
-
-
 
 
 
