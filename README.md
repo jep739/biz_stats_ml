@@ -1,10 +1,14 @@
-# noku_ml
+# biz_stats_ml
 
 Norsk versjon:
 
 - [Norsk](./README_NO.md)
 
-Program that produces retail/wholesale trade statistics using machine learning + visualisations 
+**This program uses altered data so that the results you see here do not represent actual industrial economic development, nor does it reflect actual company data. Results you see here are for illustrartive purposes only**
+
+## Overview:
+
+Program that produces retail/wholesale trade statistics using machine learning + visualisations.
 
 The main problem being solved, is inaccuarte/low quality responses being delivered by respondents to a survey - often with very material consequences to the final production. This normally takes a team of statisticians an entire year to correct (sometimes results in having to recontact the responders) - I am to solve this task using machine learning and other statistical measures. 
 
