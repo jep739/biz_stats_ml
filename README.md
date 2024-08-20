@@ -1,6 +1,6 @@
 # biz_stats_ml
 
-Norsk versjon:
+Klikk for norsk versjon:
 
 - [Norsk](./README_NO.md)
 
