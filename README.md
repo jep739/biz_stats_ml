@@ -1,7 +1,7 @@
 # biz_stats_ml
 Program that produces retail/wholesale trade statistics using machine learning + visualisations.
 
-The visualisations you see here is **dummy data**.
+The visualisations you see here are produced using data that been adjusted so that it doesnt represent the actual dataset. It does not display actual industrial statistics or individual company data and is meant for illustrative purposes only. 
 
 Code has been moved from my organisation to my personal profile. All of the work was done in the repo that my organisation owns - but all the work is my own. I am sharing here to open it up to comment from people working with similar statistics worldwide. Please feel free to share your thoughts.
 
