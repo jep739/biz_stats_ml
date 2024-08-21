@@ -4,7 +4,7 @@ Klikk for norsk versjon:
 
 - [Norsk](./README_NO.md)
 
-**This program uses altered data so that the results you see here do not represent actual industrial economic development, nor does it reflect actual company data. Results you see here are for illustrative purposes only**
+**This program uses altered data so that the results you see here do not represent actual industrial economic development, nor does it reflect actual company data. Results you see here are for illustrative purposes only. However machine learning results are produced using actual data.**
 
 ## Overview:
 
